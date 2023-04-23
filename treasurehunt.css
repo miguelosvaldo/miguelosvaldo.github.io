@@ -1,0 +1,71 @@
+/*object name {}*/
+/*key:value pairs*/
+
+h1{
+    color:red;
+}
+
+h3{
+    animation: shake 1s infinite;
+}
+
+p{
+    color:black;
+    font-weight: bold;
+}
+
+.paragraphs {
+    color:black;
+    border: 2px dotted black;
+}
+#paragraph-three{
+    color: white;
+}
+
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/526/494/416/pokemon-seaside.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+h2{
+    color:whitesmoke;
+}
+
+#directions{
+    display:flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.rules{
+    color: whitesmoke;
+    text-align: left;
+}
+ul {
+    list-style-type:none;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+table {
+    display:flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+button:hover {
+    color: blue;
+    cursor: pointer;
+}
+    
+@keyframes shake {
+    0%{transform: translate(3px, 3px) rotate(1deg)};
+    50% {transform: translate(-1px,2px) rotate(-1deg)};
+    100% {transfrom: translate(1px, -2px) rotate (-1deg)}
+}
